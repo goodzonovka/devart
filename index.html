@@ -1,0 +1,1471 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Main page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+<body>
+    <div class="m-menu">
+    <div class="m-menu__header">
+        <a href="/" class="m-menu__logo">
+            <img src="img/logo.png" alt="">
+        </a>
+
+        <ul class="m-menu__languages">
+            <li class="item">
+                <a href="#" class="link active">
+                    <img src="img/english.png" alt="">
+                    <span>En</span>
+                </a>
+            </li>
+
+            <li class="item">
+                <a href="#" class="link">
+                    <img src="img/ukraine.png" alt="">
+                    <span>Uk</span>
+                </a>
+            </li>
+        </ul>
+
+        <div class="m-menu__close">
+            <svg class="icon" width="20" height="20">
+                <use xlink:href="img/icons/icons.svg#close-menu" fill="#fff"></use>
+            </svg>
+        </div>
+    </div>
+
+    <div class="m-menu__content">
+        <div class="m-menu__nav">
+
+        </div>
+    </div>
+</div>
+
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <a href="/" class="header__logo">
+                <img src="img/logo.png" alt="">
+            </a>
+
+            <nav class="menu">
+                <ul class="menu__list">
+
+                    <li class="menu__item has-child">
+                        <a href="#" class="menu__link">
+                            Products
+                            <svg class="icon icon-arrow" width="18" height="18">
+                                <use xlink:href="img/icons/icons.svg#arrow" fill="#A7A7A9"></use>
+                            </svg>
+                        </a>
+                        <ul class="dropdown menu__submenu">
+                            <li class="menu__submenu__item">
+                                <a href="#" class="menu__submenu__link">Item 1</a>
+                            </li>
+                            <li class="menu__submenu__item">
+                                <a href="#" class="menu__submenu__link">Item 2</a>
+                            </li>
+                            <li class="menu__submenu__item">
+                                <a href="#" class="menu__submenu__link">Item 3</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Store</a>
+                    </li>
+
+                    <li class="menu__item has-child">
+                        <a href="#" class="menu__link">
+                            Support
+                            <svg class="icon icon-arrow" width="18" height="18">
+                                <use xlink:href="img/icons/icons.svg#arrow" fill="#A7A7A9"></use>
+                            </svg>
+                        </a>
+                        <ul class="dropdown menu__submenu">
+                            <li class="menu__submenu__item">
+                                <a href="#" class="menu__submenu__link">Item 1</a>
+                            </li>
+                            <li class="menu__submenu__item">
+                                <a href="#" class="menu__submenu__link">Item 2</a>
+                            </li>
+                            <li class="menu__submenu__item">
+                                <a href="#" class="menu__submenu__link">Item 3</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Blog</a>
+                    </li>
+
+                    <li class="menu__item has-child">
+                        <a href="#" class="menu__link">
+                            Company
+                            <svg class="icon icon-arrow" width="18" height="18">
+                                <use xlink:href="img/icons/icons.svg#arrow" fill="#A7A7A9"></use>
+                            </svg>
+                        </a>
+                        <ul class="dropdown menu__submenu">
+                            <li class="menu__submenu__item">
+                                <a href="#" class="menu__submenu__link">Item 1</a>
+                            </li>
+                            <li class="menu__submenu__item">
+                                <a href="#" class="menu__submenu__link">Item 2</a>
+                            </li>
+                            <li class="menu__submenu__item">
+                                <a href="#" class="menu__submenu__link">Item 3</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+
+            <div class="header__actions">
+                <button class="search">
+                    <svg class="icon" width="24" height="24">
+                        <use xlink:href="img/icons/icons.svg#search" fill="#A7A7A9"></use>
+                    </svg>
+                </button>
+
+                <a href="#cart" class="cart">
+                    <svg class="icon" width="24" height="24">
+                        <use xlink:href="img/icons/icons.svg#cart" fill="#A7A7A9"></use>
+                    </svg>
+                    <span class="count">1</span>
+                </a>
+
+                <div class="languages">
+                    <button class="languages__button">
+                        En
+                        <svg class="icon icon-arrow" width="18" height="18">
+                            <use xlink:href="img/icons/icons.svg#arrow" fill="#A7A7A9"></use>
+                        </svg>
+                    </button>
+
+                    <ul class="dropdown languages__dropdown">
+                        <li class="languages__item">
+                            <a href="#" class="languages__link active">
+                                <img src="img/english.png" alt="">
+                                <span>English</span>
+                            </a>
+                        </li>
+
+                        <li class="languages__item">
+                            <a href="#" class="languages__link">
+                                <img src="img/ukraine.png" alt="">
+                                <span>Ukraine</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="account">
+                    <button class="account__button">
+                        AndreyV
+                        <svg class="icon icon-arrow" width="18" height="18">
+                            <use xlink:href="img/icons/icons.svg#arrow" fill="#A7A7A9"></use>
+                        </svg>
+                    </button>
+
+                    <ul class="dropdown account__dropdown">
+                        <li class="account__item">
+                            <a href="#" class="account__link">Personal Area</a>
+                        </li>
+                        <li class="account__item">
+                            <a href="#" class="account__link">Order list</a>
+                        </li>
+                        <li class="account__item">
+                            <a href="#" class="account__link">Messages</a>
+                        </li>
+                        <li class="account__item">
+                            <a href="#" class="account__link">Exit</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <button class="m-menu__button">
+                    <svg class="icon" width="20" height="20">
+                        <use xlink:href="img/icons/icons.svg#menu" fill="#A7A7A9"></use>
+                    </svg>
+                </button>
+            </div>
+
+            <form class="dropdown search-form">
+                <div class="search-form__title">Quick search</div>
+                <div class="search-form__row">
+                    <input type="text" class="search-form__input form-control">
+                    <button class="search-form__button">
+                        <svg class="icon" width="24" height="24">
+                            <use xlink:href="img/icons/icons.svg#search" fill="#3D3D3D"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="search-form__results">
+                    <div class="search-form__results__title">Search Results</div>
+                </div>
+            </form>
+        </div>
+    </div>
+</header>
+    <main>
+    <div class="banner">
+        <div class="container">
+            <div class="banner__inner">
+
+                <div class="banner__content">
+                    <div class="banner__title-1">Achieve the next level productivity</div>
+
+                    <div class="banner__title-2">dbForge <b>SQL Complete</b></div>
+
+                    <div class="banner__title-3">An advanced IntelliSense-style code completion add-in for SSMS and VS
+                    </div>
+
+                    <div class="banner__free-edition">Free edition available</div>
+
+                    <div class="banner__buttons">
+                        <a class="btn" href="#" download>Download</a>
+                        <a href="#" class="btn btn-transparent">Buy now</a>
+                    </div>
+                </div>
+
+                <div class="banner__img">
+                    <img src="img/banner-bg.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="actions">
+        <div class="container">
+
+            <div class="actions__inner">
+
+                <a href="#" class="sql-complete">
+                    <img src="img/sql-complete.png" alt="">
+                    <span>SQL Complete</span>
+                </a>
+
+                <div class="actions__nav">
+                    <a href="#" class="active">Overview</a>
+                    <a href="#">What's New</a>
+                    <a href="#">Features</a>
+                    <a href="#">Editions</a>
+                    <a href="#">Support</a>
+                </div>
+
+                <div class="actions__buttons">
+                    <a href="#" class="btn" download>Download</a>
+                    <a href="#" class="btn btn-green">Buy now</a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <section class="advanced-sql">
+        <div class="container">
+
+            <div class="inner">
+
+                <div class="content">
+                    <h1>Advanced SQL Autocompletion Pretty SQL Formatting<br> Smart Code Refactoring</h1>
+                    <div class="text-formatted">
+                        <p>SQL Complete is an advanced solution for SQL database development,
+                            management, and administration. Available as an add-in for Visual
+                            Studio and SSMS, the tool offers excellent autocompletion capabilities.</p>
+
+                        <p>Write, beautify, refactor your SQL code easily and boost your productivity
+                            dramatically due to the features that are included in SQL Complete but are
+                            lacking in Management Studio and Visual Studio IntelliSense.</p>
+                    </div>
+
+                    <div class="buttons">
+                        <button class="btn">
+                            <svg class="icon" width="24" height="25">
+                                <use xlink:href="img/icons/icons.svg#play"></use>
+                            </svg>
+                            Watch the introductory video
+                        </button>
+                        <button class="btn btn-transparent">
+                            <svg class="icon" width="22" height="24">
+                                <use xlink:href="img/icons/icons.svg#file" fill="#0071CE"></use>
+                            </svg>
+                            Read WhitePaper
+                        </button>
+                    </div>
+                </div>
+
+                <div class="faq">
+
+                    <div class="faq__item">
+                        <div class="faq__header">
+                            <h5 class="faq__title">
+                                Express edition available
+                                <span class="faq__status">FREE</span>
+                            </h5>
+                            <button class="faq__arrow">
+                                <svg class="icon" width="24" height="24">
+                                    <use xlink:href="img/icons/icons.svg#faq-arrow" fill="#3D3D3D"></use>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="text-formatted faq__content">
+                            <p>SQL Complete conveniently delivers quick object overview tooltips by simply hovering
+                                over the required objects while you are writing SQL code. This feature supports nearly
+                                70 types of database objects.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item">
+                        <div class="faq__header">
+                            <h5 class="faq__title">
+                                Beautify T-SQL code and unify code standards with smart SQL Formatter
+                            </h5>
+                            <button class="faq__arrow">
+                                <svg class="icon" width="24" height="24">
+                                    <use xlink:href="img/icons/icons.svg#faq-arrow" fill="#3D3D3D"></use>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="text-formatted faq__content">
+                            <p>SQL Complete conveniently delivers quick object overview tooltips by simply hovering
+                                over the required objects while you are writing SQL code. This feature supports nearly
+                                70 types of database objects.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item">
+                        <div class="faq__header">
+                            <h5 class="faq__title">
+                                Get the essential information on DB objects while you are writing a code
+                            </h5>
+                            <button class="faq__arrow">
+                                <svg class="icon" width="24" height="24">
+                                    <use xlink:href="img/icons/icons.svg#faq-arrow" fill="#3D3D3D"></use>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="text-formatted faq__content">
+                            <p>SQL Complete conveniently delivers quick object overview tooltips by simply hovering
+                                over the required objects while you are writing SQL code. This feature supports nearly
+                                70 types of database objects.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item">
+                        <div class="faq__header">
+                            <h5 class="faq__title">
+                                Format your SQL query right in Management Studio or Visual Studio
+                            </h5>
+                            <button class="faq__arrow">
+                                <svg class="icon" width="24" height="24">
+                                    <use xlink:href="img/icons/icons.svg#faq-arrow" fill="#3D3D3D"></use>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="text-formatted faq__content">
+                            <p>SQL Complete conveniently delivers quick object overview tooltips by simply hovering
+                                over the required objects while you are writing SQL code. This feature supports nearly
+                                70 types of database objects.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item">
+                        <div class="faq__header">
+                            <h5 class="faq__title">
+                                Use rich SQL code snippet collection, manage and modify the existing snippets or create
+                                your own templates
+                            </h5>
+                            <button class="faq__arrow">
+                                <svg class="icon" width="24" height="24">
+                                    <use xlink:href="img/icons/icons.svg#faq-arrow" fill="#3D3D3D"></use>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="text-formatted faq__content">
+                            <p>SQL Complete conveniently delivers quick object overview tooltips by simply hovering
+                                over the required objects while you are writing SQL code. This feature supports nearly
+                                70 types of database objects.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item">
+                        <div class="faq__header">
+                            <h5 class="faq__title">
+                                Format your SQL query right in Management Studio or Visual Studio
+                            </h5>
+                            <button class="faq__arrow">
+                                <svg class="icon" width="24" height="24">
+                                    <use xlink:href="img/icons/icons.svg#faq-arrow" fill="#3D3D3D"></use>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="text-formatted faq__content">
+                            <p>SQL Complete conveniently delivers quick object overview tooltips by simply hovering
+                                over the required objects while you are writing SQL code. This feature supports nearly
+                                70 types of database objects.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq__item">
+                        <div class="faq__header">
+                            <h5 class="faq__title">
+                                Rename tables, columns, procedures, and functions safely with automatic correction of
+                                references to the renamed objects
+                            </h5>
+                            <button class="faq__arrow">
+                                <svg class="icon" width="24" height="24">
+                                    <use xlink:href="img/icons/icons.svg#faq-arrow" fill="#3D3D3D"></use>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="text-formatted faq__content">
+                            <p>SQL Complete conveniently delivers quick object overview tooltips by simply hovering
+                                over the required objects while you are writing SQL code. This feature supports nearly
+                                70 types of database objects.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="video-guides">
+        <div class="container">
+
+            <h2 class="text-center">Check out our quick video guides</h2>
+
+            <div class="tabs">
+                <div class="tabs__buttons">
+                    <button class="tab__button active" data-tab-target="#boost-productivity">
+                        <svg class="icon" width="24" height="24">
+                            <use xlink:href="img/icons/icons.svg#boost-productivity"></use>
+                        </svg>
+                        Boost productivity
+                    </button>
+                    <button class="tab__button" data-tab-target="#reuse-code-modules">
+                        <svg class="icon" width="24" height="24">
+                            <use xlink:href="img/icons/icons.svg#reuse-code-modules"></use>
+                        </svg>
+                        Reuse code modules
+                    </button>
+                    <button class="tab__button" data-tab-target="#improve-code-quality">
+                        <svg class="icon" width="24" height="24">
+                            <use xlink:href="img/icons/icons.svg#improve-code-quality"></use>
+                        </svg>
+                        Improve code quality
+                    </button>
+                    <button class="tab__button" data-tab-target="#unify-sql-standards">
+                        <svg class="icon" width="24" height="24">
+                            <use xlink:href="img/icons/icons.svg#unify-sql-standards"></use>
+                        </svg>
+                        Unify SQL standards
+                    </button>
+                    <button class="tab__button" data-tab-target="#work-safe">
+                        <svg class="icon" width="24" height="24">
+                            <use xlink:href="img/icons/icons.svg#work-safe"></use>
+                        </svg>
+                        Work safe
+                    </button>
+                    <button class="tab__button" data-tab-target="#operate-with-data">
+                        <svg class="icon" width="24" height="24">
+                            <use xlink:href="img/icons/icons.svg#operate-with-data"></use>
+                        </svg>
+                        Operate with data
+                    </button>
+                </div>
+                <div class="tabs__content">
+
+                    <div id="boost-productivity" class="tab__content active">
+
+                        <div class="inner">
+
+                            <div class="content">
+                                <h3>Boost coding productivity</h3>
+                                <div class="text-formatted">
+                                    <p>SQL Complete is designed to help the user increase their coding speed, dedicate
+                                        more time to actually writing code, help them make it more understandable, and
+                                        reduce the number of syntax errors.</p>
+                                    <p>Being an advanced SQL IntelliSense tool, SQL Complete helps most of these
+                                        benefits
+                                        have an immediate effect. It offers valid context-specific suggestions to speed
+                                        up query writing. During typing, it conveniently leads the user through the
+                                        syntax
+                                        of SQL queries and commands.</p>
+                                </div>
+                                <a href="#" class="link">
+                                    Learn more
+                                    <svg class="icon" width="16" height="10">
+                                        <use xlink:href="img/icons/icons.svg#read-more-arrow"></use>
+                                    </svg>
+                                </a>
+                            </div>
+
+                            <a href="https://youtu.be/Ve1LNJEIKUE" data-fancybox class="video">
+                                <img src="img/video-preview.jpg" alt="">
+
+                                <button class="video-play">
+                                    <img src="img/video-play.png" alt="">
+                                </button>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div id="reuse-code-modules" class="tab__content">
+
+                        <div class="inner">
+
+                            <div class="content">
+                                <h3>Reuse code modules</h3>
+                                <div class="text-formatted">
+                                    <p>SQL Complete is designed to help the user increase their coding speed, dedicate
+                                        more time to actually writing code, help them make it more understandable, and
+                                        reduce the number of syntax errors.</p>
+                                    <p>Being an advanced SQL IntelliSense tool, SQL Complete helps most of these
+                                        benefits
+                                        have an immediate effect. It offers valid context-specific suggestions to speed
+                                        up query writing. During typing, it conveniently leads the user through the
+                                        syntax
+                                        of SQL queries and commands.</p>
+                                </div>
+                                <a href="#" class="link">
+                                    Learn more
+                                    <svg class="icon" width="16" height="10">
+                                        <use xlink:href="img/icons/icons.svg#read-more-arrow"></use>
+                                    </svg>
+                                </a>
+                            </div>
+
+                            <a href="https://youtu.be/5qF_qbaWt3Q" data-fancybox class="video">
+                                <img src="img/video-preview.jpg" alt="">
+
+                                <button class="video-play">
+                                    <img src="img/video-play.png" alt="">
+                                </button>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div id="improve-code-quality" class="tab__content">
+
+                        <div class="inner">
+
+                            <div class="content">
+                                <h3>Improve code quality</h3>
+                                <div class="text-formatted">
+                                    <p>SQL Complete is designed to help the user increase their coding speed, dedicate
+                                        more time to actually writing code, help them make it more understandable, and
+                                        reduce the number of syntax errors.</p>
+                                    <p>Being an advanced SQL IntelliSense tool, SQL Complete helps most of these
+                                        benefits
+                                        have an immediate effect. It offers valid context-specific suggestions to speed
+                                        up query writing. During typing, it conveniently leads the user through the
+                                        syntax
+                                        of SQL queries and commands.</p>
+                                </div>
+                                <a href="#" class="link">
+                                    Learn more
+                                    <svg class="icon" width="16" height="10">
+                                        <use xlink:href="img/icons/icons.svg#read-more-arrow"></use>
+                                    </svg>
+                                </a>
+                            </div>
+
+                            <a href="https://youtu.be/kXYiU_JCYtU" data-fancybox class="video">
+                                <img src="img/video-preview.jpg" alt="">
+
+                                <button class="video-play">
+                                    <img src="img/video-play.png" alt="">
+                                </button>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                    <div id="unify-sql-standards" class="tab__content">
+
+                        <div class="inner">
+
+                            <div class="content">
+                                <h3>Unify SQL standards</h3>
+                                <div class="text-formatted">
+                                    <p>SQL Complete is designed to help the user increase their coding speed, dedicate
+                                        more time to actually writing code, help them make it more understandable, and
+                                        reduce the number of syntax errors.</p>
+                                    <p>Being an advanced SQL IntelliSense tool, SQL Complete helps most of these
+                                        benefits
+                                        have an immediate effect. It offers valid context-specific suggestions to speed
+                                        up query writing. During typing, it conveniently leads the user through the
+                                        syntax
+                                        of SQL queries and commands.</p>
+                                </div>
+                                <a href="#" class="link">
+                                    Learn more
+                                    <svg class="icon" width="16" height="10">
+                                        <use xlink:href="img/icons/icons.svg#read-more-arrow"></use>
+                                    </svg>
+                                </a>
+                            </div>
+
+                            <a href="https://youtu.be/eVTXPUF4Oz4" data-fancybox class="video">
+                                <img src="img/video-preview.jpg" alt="">
+
+                                <button class="video-play">
+                                    <img src="img/video-play.png" alt="">
+                                </button>
+                            </a>
+
+                        </div>
+
+                    </div>
+                    <div id="work-safe" class="tab__content">
+
+                        <div class="inner">
+
+                            <div class="content">
+                                <h3>Work safe</h3>
+                                <div class="text-formatted">
+                                    <p>SQL Complete is designed to help the user increase their coding speed, dedicate
+                                        more time to actually writing code, help them make it more understandable, and
+                                        reduce the number of syntax errors.</p>
+                                    <p>Being an advanced SQL IntelliSense tool, SQL Complete helps most of these
+                                        benefits
+                                        have an immediate effect. It offers valid context-specific suggestions to speed
+                                        up query writing. During typing, it conveniently leads the user through the
+                                        syntax
+                                        of SQL queries and commands.</p>
+                                </div>
+                                <a href="#" class="link">
+                                    Learn more
+                                    <svg class="icon" width="16" height="10">
+                                        <use xlink:href="img/icons/icons.svg#read-more-arrow"></use>
+                                    </svg>
+                                </a>
+                            </div>
+
+                            <a href="https://youtu.be/By7ctqcWxyM" data-fancybox class="video">
+                                <img src="img/video-preview.jpg" alt="">
+
+                                <button class="video-play">
+                                    <img src="img/video-play.png" alt="">
+                                </button>
+                            </a>
+
+                        </div>
+
+                    </div>
+                    <div id="operate-with-data" class="tab__content">
+
+                        <div class="inner">
+
+                            <div class="content">
+                                <h3>Operate with data</h3>
+                                <div class="text-formatted">
+                                    <p>SQL Complete is designed to help the user increase their coding speed, dedicate
+                                        more time to actually writing code, help them make it more understandable, and
+                                        reduce the number of syntax errors.</p>
+                                    <p>Being an advanced SQL IntelliSense tool, SQL Complete helps most of these
+                                        benefits
+                                        have an immediate effect. It offers valid context-specific suggestions to speed
+                                        up query writing. During typing, it conveniently leads the user through the
+                                        syntax
+                                        of SQL queries and commands.</p>
+                                </div>
+                                <a href="#" class="link">
+                                    Learn more
+                                    <svg class="icon" width="16" height="10">
+                                        <use xlink:href="img/icons/icons.svg#read-more-arrow"></use>
+                                    </svg>
+                                </a>
+                            </div>
+
+                            <a href="https://youtu.be/g8z-qP34-1Y" data-fancybox class="video">
+                                <img src="img/video-preview.jpg" alt="">
+
+                                <button class="video-play">
+                                    <img src="img/video-play.png" alt="">
+                                </button>
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sql-complete-killer">
+        <div class="container">
+
+            <div class="inner">
+
+                <div class="img">
+                    <img src="img/sql-complete-killer.png" alt="">
+                </div>
+
+                <div class="content">
+                    <div class="h2">SQL Complete killer feature that SSMS lacks since v18</div>
+                    <div class="title">T-SQL Debugger</div>
+                    <ul class="list">
+                        <li><span>·</span> create an empty repository from scratch</li>
+                        <li><span>·</span> commit and revert changes</li>
+                        <li><span>·</span> view and resolve conflicts</li>
+                        <li><span>·</span> associate commits with GitHub Issues</li>
+                        <li><span>·</span> make switching between branches</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="formatting">
+        <div class="container">
+            <h2 class="text-center">Unveil differences between formatting of predefined styles</h2>
+
+            <div class="tabs">
+                <div class="tabs__buttons__wrap">
+                    <h4>Formatting profiles</h4>
+                    <div class="tabs__buttons">
+                        <button class="tab__button active" data-tab-target="#collapsed">Collapsed</button>
+                        <button class="tab__button" data-tab-target="#commas-before">Commas before</button>
+                        <button class="tab__button" data-tab-target="#compact">Compact</button>
+                        <button class="tab__button" data-tab-target="#default">Default</button>
+                        <button class="tab__button" data-tab-target="#extended">Extended</button>
+                        <button class="tab__button" data-tab-target="#indented">Indented</button>
+                        <button class="tab__button" data-tab-target="#msdn-sql">MSDN SQL</button>
+                        <button class="tab__button" data-tab-target="#right-aligned">Right aligned</button>
+                        <button class="tab__button" data-tab-target="#stack-compact">Stack compact</button>
+                    </div>
+                </div>
+                <div class="tabs__content">
+                    <div id="collapsed" class="tab__content active">
+                        <div id="slider" class="slider"></div>
+                        <div class="before-after-text">
+                            <div>After formatting</div>
+                            <div>Before formatting</div>
+                        </div>
+                    </div>
+                    <div id="commas-before" class="tab__content">Commas before</div>
+                    <div id="compact" class="tab__content">Compact</div>
+                    <div id="default" class="tab__content">Default</div>
+                    <div id="extended" class="tab__content">Extended</div>
+                    <div id="indented" class="tab__content">Indented</div>
+                    <div id="msdn-sql" class="tab__content">MSDN SQL</div>
+                    <div id="right-aligned" class="tab__content">Right aligned</div>
+                    <div id="stack-compact" class="tab__content">Stack compact</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <a href="#" class="view-all-features">
+        View all features
+        <svg class="icon" width="21" height="12">
+            <use xlink:href="img/icons/icons.svg#read-more-arrow" fill="#fff"></use>
+        </svg>
+    </a>
+
+    <section class="see-how">
+        <div class="container">
+            <h2 class="text-center">See How SQL Complete Unlocks Value</h2>
+
+            <div class="tabs">
+
+                <div class="tabs__buttons">
+                    <button class="tab__button active" data-tab-target="#software-developers">
+                        <svg class="icon" width="24" height="24">
+                            <use xlink:href="img/icons/icons.svg#software-developers"></use>
+                        </svg>
+                        Software developers
+                    </button>
+                    <button class="tab__button" data-tab-target="#database-developers">
+                        <svg class="icon" width="24" height="24">
+                            <use xlink:href="img/icons/icons.svg#database-developers"></use>
+                        </svg>
+                        Database developers
+                    </button>
+                    <button class="tab__button" data-tab-target="#database-administrators">
+                        <svg class="icon" width="24" height="24">
+                            <use xlink:href="img/icons/icons.svg#database-administrators"></use>
+                        </svg>
+                        Database administrators
+                    </button>
+                    <button class="tab__button" data-tab-target="#data-analysis">
+                        <svg class="icon" width="24" height="24">
+                            <use xlink:href="img/icons/icons.svg#data-analysis"></use>
+                        </svg>
+                        Data analysis
+                    </button>
+                    <button class="tab__button" data-tab-target="#devops-engineers">
+                        <svg class="icon" width="24" height="24">
+                            <use xlink:href="img/icons/icons.svg#devops-engineers"></use>
+                        </svg>
+                        Devops engineers
+                    </button>
+                </div>
+
+                <div class="tabs__content">
+                    <div id="software-developers" class="tab__content active">
+                        <div class="inner">
+
+                            <div class="item">
+                                <div class="value">2X</div>
+                                <h4>Level Up Query coding</h4>
+                                <div class="text-formatted">
+                                    <p>Code faster with context-sensitive<br> auto-completion, quick object information,
+                                        instant code formatting, and smart refactoring Boost your productivity
+                                        significantly with</p>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="value">100%</div>
+                                <h4>Level Up your productivity </h4>
+                                <div class="text-formatted">
+                                    <p>Code faster with context-sensitive<br> auto-completion,
+                                        quick object information, instant code formatting,
+                                        and smart refactoring Boost your productivity significantly</p>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="value">20-50</div>
+                                <h4>Level Up Query coding</h4>
+                                <div class="text-formatted">
+                                    <p>Code faster with context-sensitive<br> auto-completion,
+                                        quick object information, instant code formatting,
+                                        and smart refactoring Boost your productivity significantly</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div id="database-developers" class="tab__content">
+                        Database developers
+                    </div>
+                    <div id="database-administrators" class="tab__content">
+                        Database administrators
+                    </div>
+                    <div id="data-analysis" class="tab__content">
+                        Data analysis
+                    </div>
+                    <div id="devops-engineers" class="tab__content">
+                        Devops engineers
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="suggestions">
+        <div class="container">
+
+            <div class="inner">
+
+                <div class="content">
+                    <div class="block">
+                        <svg class="icon" width="60" height="60">
+                            <use xlink:href="img/icons/icons.svg#need-a-hand"></use>
+                        </svg>
+                        <div class="block__inner">
+                            <div class="h4">Need a hand?</div>
+                            <div class="text-formatted">
+                                If you need any help or have questions about Devart tools
+                                or purchasing options, do not hesitate to get in touch with us.
+                            </div>
+                            <div class="links">
+                                <a href="#">
+                                    <svg class="icon" width="24" height="24">
+                                        <use xlink:href="img/icons/icons.svg#purchasing"></use>
+                                    </svg>
+                                    Purchasing FAQ
+                                </a>
+                                <a href="mailto:sales@devart.com">
+                                    <svg class="icon" width="24" height="24">
+                                        <use xlink:href="img/icons/icons.svg#email"></use>
+                                    </svg>
+                                    sales@devart.com
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <svg class="icon" width="60" height="60">
+                            <use xlink:href="img/icons/icons.svg#get-started"></use>
+                        </svg>
+                        <div class="block__inner">
+                            <div class="h4">Get started with SQL Complete at no cost</div>
+                            <div class="text-formatted">
+                                Download a FREE trial version and see how much time you can save on your
+                                coding and database deployment today.
+                            </div>
+                            <a href="#" download class="btn">download free</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="buy-licenses">
+                    <svg class="icon" width="60" height="60">
+                        <use xlink:href="img/icons/icons.svg#percent"></use>
+                    </svg>
+                    <div class="h2">Buy multiple licenses with a substantial discount</div>
+                    <div class="text-formatted">
+                        We provide flexible purchase options, including bulk discounts, to meet the budget
+                        of each and every customer.
+                    </div>
+                    <div class="buy-licenses__footer">
+                        <div class="price">
+                            <div class="text">Start from:</div>
+                            <div class="value">$149.95</div>
+                        </div>
+
+                        <a href="#" class="btn btn-white">Purchase now</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="companies-choose">
+        <div class="container">
+            <h2>Leading companies choose dbForge Products</h2>
+            <div class="inner">
+                <div class="item">
+                    <img src="img/companies/microsoft.png" width="163" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/companies/arconic.png" width="161" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/companies/anthem.png" width="155" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/companies/polaris.png" width="162" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/companies/lam-research.png" width="135" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/companies/hpe.png" width="144" alt="">
+                </div>
+                <div class="item item-morgan">
+                    <img src="img/companies/morgan.png" width="178" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/companies/jabil.png" width="137" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/companies/berkley.png" width="176" alt="">
+                </div>
+                <div class="item">
+                    <img src="img/companies/amerisource-bergen.png" width="180" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="awards-recognition">
+        <div class="container">
+            <h2>Awards & Recognition</h2>
+            <div class="text-formatted">
+                <p>dbForge solutions have been consistently recognized for quality,
+                    reliability, and practical value delivered under sleek user interfaces</p>
+            </div>
+            <div class="inner">
+                <div class="item">
+                    <img src="img/awards/award-1.png" alt="">
+                    <div class="title">DBTA Best Database<br> Backup Solution 2021</div>
+                </div>
+                <div class="item">
+                    <img src="img/awards/award-2.png" alt="">
+                    <div class="title">High Performer Summer<br> 2021</div>
+                </div>
+                <div class="item">
+                    <img src="img/awards/award-3.png" alt="">
+                    <div class="title">High Performer Spring<br> 2020</div>
+                </div>
+                <div class="item">
+                    <img src="img/awards/award-4.png" alt="">
+                    <div class="title">Software Advice Front Runners<br> 2021</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="success-stories">
+        <div class="container">
+            <h2>Success Stories</h2>
+
+            <div class="inner">
+                <div class="swiper-nav">
+                    <div class="swiper-button swiper-button__prev">
+                        <svg class="icon" width="8" height="13">
+                            <use xlink:href="img/icons/icons.svg#slider-arrow-left"></use>
+                        </svg>
+                    </div>
+                    <div class="swiper-pages">
+                        <div class="swiper-pages__current"></div>
+                        <div class="line">/</div>
+                        <div class="swiper-pages__total"></div>
+                    </div>
+                    <div class="swiper-button swiper-button__next">
+                        <svg class="icon" width="8" height="13">
+                            <use xlink:href="img/icons/icons.svg#slider-arrow-right"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="swiper success-stories__slider">
+                    <div class="swiper-wrapper">
+
+                        <div class="item swiper-slide">
+                            <div class="img">
+                                <img src="img/success-stories/image-1.png" alt="">
+                            </div>
+
+                            <h5>MCS GROUP</h5>
+                            <div class="text-formatted">
+                                <p>"...a powerful tool for developing a help system with auto format support..."</p>
+                            </div>
+                            <div class="additional-info">
+                                <svg class="icon" width="32" height="32">
+                                    <use xlink:href="img/icons/icons.svg#studio"></use>
+                                </svg>
+                                dbForge Studio for SQL Server
+                            </div>
+                        </div>
+
+                        <div class="item swiper-slide">
+                            <div class="img">
+                                <img src="img/success-stories/image-2.png" alt="">
+                            </div>
+
+                            <h5>Nordhausen University</h5>
+                            <div class="text-formatted">
+                                <p>"...we found out that it is a perfect tool for us due to its simplicity, usability,
+                                    cost-effectiveness..."</p>
+                            </div>
+                            <div class="additional-info">
+                                <svg class="icon" width="32" height="32">
+                                    <use xlink:href="img/icons/icons.svg#studio"></use>
+                                </svg>
+                                dbForge Studio for SQL Server
+                            </div>
+                        </div>
+
+                        <div class="item swiper-slide">
+                            <div class="img">
+                                <img src="img/success-stories/image-3.png" alt="">
+                            </div>
+
+                            <h5>Elements Financial</h5>
+                            <div class="text-formatted">
+                                <p>"...this add-in has greatly improved our day to day code writing abilities..."</p>
+                            </div>
+                            <div class="additional-info">
+                                <svg class="icon" width="32" height="32">
+                                    <use xlink:href="img/icons/icons.svg#studio"></use>
+                                </svg>
+                                dbForge SQL Complete
+                            </div>
+                        </div>
+
+                        <div class="item swiper-slide">
+                            <div class="img">
+                                <img src="img/success-stories/image-1.png" alt="">
+                            </div>
+
+                            <h5>MCS GROUP</h5>
+                            <div class="text-formatted">
+                                <p>"...a powerful tool for developing a help system with auto format support..."</p>
+                            </div>
+                            <div class="additional-info">
+                                <svg class="icon" width="32" height="32">
+                                    <use xlink:href="img/icons/icons.svg#studio"></use>
+                                </svg>
+                                dbForge Studio for SQL Server
+                            </div>
+                        </div>
+
+                        <div class="item swiper-slide">
+                            <div class="img">
+                                <img src="img/success-stories/image-2.png" alt="">
+                            </div>
+
+                            <h5>Nordhausen University</h5>
+                            <div class="text-formatted">
+                                <p>"...we found out that it is a perfect tool for us due to its simplicity, usability,
+                                    cost-effectiveness..."</p>
+                            </div>
+                            <div class="additional-info">
+                                <svg class="icon" width="32" height="32">
+                                    <use xlink:href="img/icons/icons.svg#studio"></use>
+                                </svg>
+                                dbForge Studio for SQL Server
+                            </div>
+                        </div>
+
+                        <div class="item swiper-slide">
+                            <div class="img">
+                                <img src="img/success-stories/image-3.png" alt="">
+                            </div>
+
+                            <h5>Elements Financial</h5>
+                            <div class="text-formatted">
+                                <p>"...this add-in has greatly improved our day to day code writing abilities..."</p>
+                            </div>
+                            <div class="additional-info">
+                                <svg class="icon" width="32" height="32">
+                                    <use xlink:href="img/icons/icons.svg#studio"></use>
+                                </svg>
+                                dbForge SQL Complete
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ready-to-go">
+        <div class="container">
+            <h2 class="text-center">Ready to go?</h2>
+
+            <div class="inner">
+
+                <div class="item">
+                    <svg class="icon" width="80" height="80">
+                        <use xlink:href="img/icons/icons.svg#calendar"></use>
+                    </svg>
+
+                    <h4>Get Started with dbForge Studio for SQL Server</h4>
+
+                    <div class="text-formatted">
+                        <p>Download 30-days free trial and start saving time with your database deployments today</p>
+                    </div>
+
+                    <a href="#" class="btn btn-transparent btn-download" download>Download free</a>
+                </div>
+
+                <div class="item">
+                    <svg class="icon" width="80" height="80">
+                        <use xlink:href="img/icons/icons.svg#percent-2"></use>
+                    </svg>
+
+                    <h4>Buy with discounts applied for multi-user purposes</h4>
+
+                    <div class="text-formatted">
+                        <p>If you have any questions about our tool and purchasing options please to get in touch</p>
+                    </div>
+
+                    <a href="#" class="btn btn-purchase">Purchase now</a>
+                </div>
+
+                <div class="item">
+                    <svg class="icon" width="80" height="80">
+                        <use xlink:href="img/icons/icons.svg#message"></use>
+                    </svg>
+
+                    <h4>Need a hand?</h4>
+
+                    <div class="text-formatted">
+                        <p>If you need any help or have questions about our tools or purchasing options, just get in
+                            touch with our team.</p>
+                    </div>
+
+                    <div class="links">
+                        <a href="#">
+                            <svg class="icon" width="24" height="24">
+                                <use xlink:href="img/icons/icons.svg#purchasing"></use>
+                            </svg>
+                            Purchasing FAQ
+                        </a>
+                        <a href="mailto:sales@devart.com">
+                            <svg class="icon" width="24" height="24">
+                                <use xlink:href="img/icons/icons.svg#email"></use>
+                            </svg>
+                            sales@devart.com
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="get-discount">
+        <div class="container">
+            <h2 class="text-center">How to get discount on dbForge SQL Tools</h2>
+
+            <div class="steps">
+
+                <div class="step">
+                    <div class="img">
+                        <svg class="icon" width="35" height="35">
+                            <use xlink:href="img/icons/icons.svg#step-1"></use>
+                        </svg>
+                    </div>
+                    <div class="title">Step 1</div>
+                    <div class="h4">Fill a form</div>
+                </div>
+
+                <div class="step">
+                    <div class="img">
+                        <svg class="icon" width="35" height="35">
+                            <use xlink:href="img/icons/icons.svg#step-2"></use>
+                        </svg>
+                    </div>
+                    <div class="title">Step 2</div>
+                    <div class="h4">Wait for reply</div>
+                </div>
+
+                <div class="step">
+                    <div class="img">
+                        <svg class="icon" width="35" height="35">
+                            <use xlink:href="img/icons/icons.svg#step-3"></use>
+                        </svg>
+                    </div>
+                    <div class="title">Step 3</div>
+                    <div class="h4">Get dicsount</div>
+                </div>
+
+            </div>
+
+            <div class="inner">
+
+                <div class="item item-discount">
+                    <img src="img/50-discount.png" alt="">
+                    <div class="text-formatted">
+                        <p>Получите 50% скидку за переход с любого аналогичного инструмента<br>
+                            на dbForge инструмент</p>
+                    </div>
+                </div>
+
+                <div class="item item-devart"></div>
+
+                <div class="item item-hf">
+                    <img src="img/high-five.png" alt="">
+                    <div class="text-formatted">
+                        <p>Расскажите о dbForge инструменте в социальных сетях и получите скидку или бесплатную
+                            лицензию</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="subscribe">
+        <div class="container">
+            <div class="inner">
+                <div class="text">Subscribe for monthly digest to get <span>special offers</span></div>
+                <form class="subscribe__form">
+                    <input type="text" class="form-control" placeholder="Enter your email...">
+                    <button class="btn btn-white">subscribe</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
+
+    <footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+
+            <div class="footer__info">
+                <a href="/" class="footer__logo">
+                    <img src="img/logo.png" alt="">
+                </a>
+                <div class="text-formatted">
+                    <p>Founded in 1997, Devart is currently one of the leading developers of
+                        database management software, ALM solutions and data providers
+                        for most popular database servers.</p>
+                </div>
+                <div class="footer__socials">
+                    <a href="#">
+                        <svg class="icon" width="24" height="24">
+                            <use xlink:href="img/icons/icons.svg#fb"></use>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg class="icon" width="24" height="24">
+                            <use xlink:href="img/icons/icons.svg#tw"></use>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg class="icon" width="24" height="24">
+                            <use xlink:href="img/icons/icons.svg#lk"></use>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg class="icon" width="24" height="24">
+                            <use xlink:href="img/icons/icons.svg#yt"></use>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg class="icon" width="24" height="24">
+                            <use xlink:href="img/icons/icons.svg#in"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer__menu footer__menu-products">
+                <h5>Products</h5>
+
+                <ul>
+                    <li>
+                        <a href="#">SQL Server Tools</a>
+                    </li>
+                    <li>
+                        <a href="#">MySQL Tools</a>
+                    </li>
+                    <li>
+                        <a href="#">Oracle Tools</a>
+                    </li>
+                    <li>
+                        <a href="#">PostgreSQL Tools</a>
+                    </li>
+                    <li>
+                        <a href="#">Productivity Tools</a>
+                    </li>
+                    <li>
+                        <a href="#">Skyvia</a>
+                    </li>
+                    <li>
+                        <a href="#">Discontinued Products</a>
+                    </li>
+                    <li>
+                        <a href="#">ADO.NET Data Providers</a>
+                    </li>
+                    <li>
+                        <a href="#">ORM Solutions</a>
+                    </li>
+                    <li>
+                        <a href="#"> ODBC Drivers</a>
+                    </li>
+                    <li>
+                        <a href="#">SSIS Components</a>
+                    </li>
+                    <li>
+                        <a href="#">Excel Add-ins</a>
+                    </li>
+                    <li>
+                        <a href="#">Delphi Data Access Components</a>
+                    </li>
+                    <li>
+                        <a href="#">dbExpress Drivers</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__menu footer__menu-support">
+                <h5>Support</h5>
+
+                <ul>
+                    <li>
+                        <a href="#">Submit Request</a>
+                    </li>
+                    <li>
+                        <a href="#">View Forums</a>
+                    </li>
+                    <li>
+                        <a href="#">Documentation Center</a>
+                    </li>
+                    <li>
+                        <a href="#">Ordering FAQs</a>
+                    </li>
+                    <li>
+                        <a href="#">Discount Programs</a>
+                    </li>
+                    <li>
+                        <a href="#">Using Website</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__menu footer__menu-company">
+                <h5>Company</h5>
+
+                <ul>
+                    <li>
+                        <a href="#">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Archive News</a>
+                    </li>
+                    <li>
+                        <a href="#">Contacts</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Success Stories</a>
+                    </li>
+                    <li>
+                        <a href="#">Events</a>
+                    </li>
+                    <li>
+                        <a href="#">Customers</a>
+                    </li>
+                    <li>
+                        <a href="#">Partners</a>
+                    </li>
+                    <li>
+                        <a href="#">Resellers</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer__partners">
+            <img src="img/partners/partner-1.png" alt="">
+            <img src="img/partners/partner-2.png" alt="">
+            <img src="img/partners/partner-3.png" alt="">
+            <img src="img/partners/partner-4.png" alt="">
+        </div>
+
+        <div class="footer__copyright">
+            <div class="text">© 1997 - 2019 Devart. All rights reserved.</div>
+            <div class="links">
+                <a href="#">Privacy & Security</a>
+                |
+                <a href="#">Terms of Use</a>
+            </div>
+
+            <button class="on-top">
+                Back on Top
+                <svg class="icon" width="10" height="11">
+                    <use xlink:href="img/icons/icons.svg#on-top"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+</footer>
+    <script src="js/app.min.js"></script>
+</body>
+</html>
